@@ -1,0 +1,13 @@
+{% extends "_main.html" %}
+
+{% block title %} Not found :( {% endblock %}
+
+{% block main %}
+    <h1>Oops!</h1>
+    <p>Article with "{{ art_id }}" id is not on this page, We are sorry</p>
+
+    <a href="/">Home</a>
+    <a href="{{ url_for("view_slovakia") }}">Slovakia articles</a>
+    <a href="{{ url_for("view_world") }}">World articles</a>
+
+{% endblock %}

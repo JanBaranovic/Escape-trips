@@ -1,0 +1,11 @@
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="{{ url_for("view_slovakia") }}">Slovakia</a></li>
+        <li><a href="{{ url_for("view_world") }}">World</a></li>
+        <li>
+            <a href="{{ url_for("view_welcome_page") }}" class="logo"><img src="{{ url_for('static', filename='images/logo_size.png') }}" alt="logo"></a>
+        </li>
+        <li><a href="{{ url_for("view_about") }}">About Us</a></li>
+        <li><a href="{{ url_for("view_contact") }}">Contact</a></li>
+    </ul>
+</nav>
