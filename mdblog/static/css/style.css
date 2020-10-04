@@ -72,3 +72,13 @@ p {
     font-size: 1.6rem;
     text-align: center;
 }
+
+form {
+    font-size: 1.4rem;
+    margin: 5rem;
+}
+
+input {
+    display: block;
+    padding: .4rem;
+}

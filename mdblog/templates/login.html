@@ -1,0 +1,17 @@
+{% extends "_main.html" %}
+
+{% block title %} Escape Trips | Log in {% endblock %}
+
+{% block main %}
+
+<form action="{{ url_for("login_user") }}" method="POST">
+    <label for="name">username: </label>
+    <input type="text" name="username">
+
+    <label for="password">username: </label>
+    <input type="password" name="password">
+
+    <input type="submit" value="Login">
+</form>
+
+{% endblock %}
